@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SEM4_Timetable</title>
+        <style>
+            a{
+                text-decoration: none;
+                color:black;
+                font-weight: bold;
+            }
+
+            table, th, td {
+              border: 1px solid black;
+            }
+            table {
+                table-layout: fixed;
+                width: 50% ;
+            }
+            td {
+                width: 25% ;
+                height: 6mm;
+            }
+            .slota{
+                background-color: #bfd663;
+            }
+            .slotb{
+                background-color: purple;
+            }
+            .slotc{
+                background-color: rgb(0, 157, 255);
+            }
+            .slotd{
+                background-color: orange;
+            }
+
+            .slote{
+                background-color: crimson;
+            }
+            .slotf{
+                background-color: yellow;
+            }
+            .slotg{
+                background-color: #949406;
+            }
+            .sloth{
+                background-color: green;
+            }
+            .slotj{
+                background-color:peachpuff;
+            }
+            .slotl{
+                background-color: brown;
+                color: white;
+            }
+            .slotm{
+                background-color: rgb(168, 222, 255);
+            }
+            .slotk{
+                background-color: navy;
+                color: white;
+            }
+            
+            /*
+            .slotg slotf slote sloth slotj slotk slotl slotm{
+                background-color: white;
+            }
+            */
+            .day{
+                background-color: #f3f2f2;
+            }
+            .labslot{
+                background-color: rgb(255, 250, 232);
+            }
+
+            td{
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="table">
+        <table>
+
+            <!--first column-->
+            <tr>
+                <th class="day" style="text-align: center;">Days</th>
+                <th class="day">8:00 - 8:50</th>
+                <th class="day">9:00-9:50</th>
+                <th class="day">10:00-10:50</th>
+                <th class="day">11:00-11:50</th>
+                <th class="day">12:00-1:00</th>
+                <th class="day">1:00-1:50</th>
+                <th class="day">2:00-3:15</th>
+                <th class="day">3:30-4:45</th>
+                <th class="day">5:00-5:50</th>
+            </tr>
+
+            <!--Monday-->
+            <tr>
+                <td class="day" rowspan="2">Mon</td>
+                <td class="slota" rowspan="2">MA2040</td>
+                <td class="slotb" rowspan="2"><a href="https://iitmadras.webex.com/iitmadras/j.php?MTID=mb0276d40dab2594d811b752cc1ac0fac" target="_blank">CS2600</a></td>
+                <td class="slotc" rowspan="2"><a href="https://iitmadras.webex.com/iitmadras/j.php?MTID=mdf84ff5a2b1760efcd7945dc33a68522" target="_blank">CS2800</a></td>
+                <td class="slotd" rowspan="2"><a href="https://iitmadras.webex.com/iitmadras/j.php?MTID=mab24931e025333521c439a38ee7ca831" target="_blank">CS2200</a></td>
+                <td rowspan="10" class="day">Lunch</td>
+                <td class="slotg" rowspan="2">G</td>
+                <td class="labslot" colspan="2"><a href="https://iitmadras.webex.com/iitmadras/j.php?MTID=m0e4ac1153e30ef1a3cedd8458bccea8c" target="_blank">CS2810</a></td>
+                <td class="slotj" rowspan="2">J/J3</td>
+            </tr>
+            <tr>
+                <td class="sloth">H/H1</td>
+                <td class="slotm">M/M2</td>
+            </tr>
+
+            <!--Tuesday-->
+            <tr>
+                <td class="day" rowspan="2">Tue</td>
+                <td class="slotb" rowspan="2"><a href="https://iitmadras.webex.com/iitmadras/j.php?MTID=mb0276d40dab2594d811b752cc1ac0fac" target="_blank">CS2600</a></td>
+                <td class="slotc" rowspan="2"><a href="https://iitmadras.webex.com/iitmadras/j.php?MTID=mdf84ff5a2b1760efcd7945dc33a68522" target="_blank">CS2800</a></td>
+                <td class="slotd" rowspan="2"><a href="https://iitmadras.webex.com/iitmadras/j.php?MTID=mab24931e025333521c439a38ee7ca831" target="_blank">CS2200</a></td>
+                <td class="slote" rowspan="2">E</td>
+                
+                <td class="slota" rowspan="2">MA2040</td>
+                <td class="labslot" colspan="2"><a href="https://iitmadras.webex.com/iitmadras/j.php?MTID=mb0276d40dab2594d811b752cc1ac0fac" target="_blank">CS2610</a></td>
+                <td class="slotf" rowspan="2">F</td>
+            </tr>
+            <tr>
+                <td class="slotm">M/M1</td>
+                <td class="sloth">H/H2</td>
+            </tr>
+
+            <!--Wednesday-->
+            <tr>
+                <td class="day" rowspan="2">Wed</td>
+                <td class="slotc" rowspan="2"><a href="https://iitmadras.webex.com/iitmadras/j.php?MTID=mdf84ff5a2b1760efcd7945dc33a68522" target="_blank">CS2800</a></td>
+                <td class="slotd" rowspan="2"><a href="https://iitmadras.webex.com/iitmadras/j.php?MTID=mab24931e025333521c439a38ee7ca831" target="_blank">CS2200</a></td>
+                <td class="slote" rowspan="2">E</td>
+                <td class="slotf" rowspan="2">F</td>
+                
+                <td class="slotb" rowspan="2"><a href="https://iitmadras.webex.com/iitmadras/j.php?MTID=mb0276d40dab2594d811b752cc1ac0fac" target="_blank">CS2600</a></td>
+                <td colspan="2" class="labslot">R</td>
+                <td class="slotg" rowspan="2">G</td>
+            </tr>
+            <tr>
+                <td class="slotj">J/J1</td>
+                <td class="slotk">K/K2</td>
+            </tr>
+
+            <!--Thursday-->
+            <tr>
+                <td class="day" rowspan="2">Thu</td>
+                <td class="slote" rowspan="2">E</td>
+                <td class="slotf" rowspan="2">F</td>
+                <td class="slotg" rowspan="2">G</td>
+                <td class="slota" rowspan="2">MA2040</td>
+                
+                <td class="slotd" rowspan="2">CS2200</td>
+                <td class="labslot" colspan="2">CY1002</td>
+                <td class="sloth" rowspan="2">H/H3</td>
+            </tr>
+            <tr>
+                <td class="slotl"><a href="https://courses.iitm.ac.in/course/view.php?id=1629#section-13" target="_blank">ME1480</a></td>
+                <td class="slotj">J/J2</td>
+            </tr>
+
+            <!--Friday-->
+            <tr>
+                <td class="day" rowspan="2">Fri</td>
+                <td class="slotf" rowspan="2">F</td>
+                <td class="slotg" rowspan="2">G</td>
+                <td class="slota" rowspan="2">MA2040</td>
+                <td class="slotb" rowspan="2"><a href="https://iitmadras.webex.com/iitmadras/j.php?MTID=mb0276d40dab2594d811b752cc1ac0fac" target="_blank">CS2600</a></td>
+                
+                <td class="slotc" rowspan="2"><a href="https://iitmadras.webex.com/iitmadras/j.php?MTID=mdf84ff5a2b1760efcd7945dc33a68522" target="_blank">CS2800</a></td>
+                <td colspan="2" class="labslot">T</td>
+                <td class="slote" rowspan="2">E</td>
+            </tr>
+            <tr>
+                <td class="slotk">K/K1</td>
+                <td class="slotl">L/L2</td>
+            </tr>
+        </table>
+        </div>
+
+        <!--references table-->
+        <div style="padding-top: 1in;">
+            <table>
+                <th colspan="6" style="height: 1cm;">References</th>
+                <tr>
+                    <td>MA2040</td>
+                    <td>CS2600</td>
+                    <td>CS2200</td>
+                    <td>CS2800</td>
+                    <td>CS2810</td>
+                    <td>CS2610</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.youtube.com/playlist?list=PLTz3P6_KN4wkPH1R3YRItpjyHXs1AWVFh" target="_blank">Recordings</a></td>
+                    <td>Recordings</td>
+                    <td><a href="https://drive.google.com/drive/folders/13Ft5IegobY5O8yaa_gIWsDNlbytR3Vjx" target="_blank">Recordings</a></td>
+                    <td><a href="https://drive.google.com/drive/folders/1jpBeEbzsCrBN_z_xIMxhuOxmRVtn14gW" target="_blank">Recordings</a></td>
+                    <td><a href="https://drive.google.com/drive/folders/17RM4HFpZ1f5N3imEjLiqeyj9wNjJQQvz" target="_blank">Recordings</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th><a href="https://drive.google.com/file/d/1iRSa9nuQHkqtDRHOTEodjwJlC9sMpDAg/view?usp=sharing" target="_blank">Text book</a></th>
+                    <th><a href="https://drive.google.com/file/d/14fBQiPLvCcPIgO3LgEbpSDqzrXqit1EX/view?usp=sharing" target="_blank">William stallings</a></th>
+                    <th><a href="https://drive.google.com/file/d/1-y44FRjD3E6yK-3TjWiNQgzKJgkA1hjM/view?usp=sharing" target="_blank">Text book</a></th>
+                    <th><a href="https://drive.google.com/file/d/12CLeZaZzuqg5SlZ_oK00l9Yc1ZerZXS3/view?usp=sharing" target="_blank">Text book</a></th>
+                    <th><a href="https://drive.google.com/file/d/1B1yBl7IW71EAtKzlh_DekyRijhNIIzPo/view?usp=sharing" target="_blank">Ref book</a></th>
+                    <th><a href="https://drive.google.com/file/d/1854G4epe5Qys6CJG9TS66c9r2itut6jk/view?usp=sharing" target="_blank">Shivarama p dandamudi</a></th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="http://www.cse.iitm.ac.in/~shwetaag/CS2800-22.htm" target="_blank">course webpage</a></td>
+                    <td><a href="https://drive.google.com/drive/folders/1oOFNXtCTSYMoNlxwk459DqIH2YkLQqH5" target="_blank">Codes</a></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+        <!--general references table-->
+        <div style="padding-top: 1in;">
+            <tbody>
+                <table>
+                    <tr>
+                        <th colspan="3" style="height: 1cm;">General References</th>
+                    </tr>
+                    <tr>
+                        <th colspan="3"><a href="https://isocpp.org/" target="_blank">CPP</a></th>
+                        <th><a href="https://www2.cs.arizona.edu/classes/cs345/summer14/files/bigO.pdf" target="_blank">Read this - order notations</a></th>
+                    </tr>
+                </table>
+            </tbody>
+        </div>
+
+        <a href="https://docs.google.com/spreadsheets/d/12G4pxcqe8pyokDxlqsVHFMAAh8u05O76RpDtFtdj3nY/edit#gid=0" target="_blank">Sem 3 gsheet</a>
+
+    </body>
+
+    <!-- hitwebcounter Code START -->
+    <footer>
+        <div>
+            <!-- hitwebcounter Code START -->
+            <!-- hitwebcounter Code START -->
+            <a href="https://www.hitwebcounter.com" target="_blank">
+            <img src="https://hitwebcounter.com/counter/counter.php?page=7984791&style=0049&nbdigits=5&type=ip&initCount=0" title="Free Counter" Alt="web counter"   border="5" /></a>
+        </div>
+    </footer>
+</html>
